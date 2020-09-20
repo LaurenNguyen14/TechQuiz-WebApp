@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>019--FirstExampleServlet</display-name>
+	<display-name>019--FirstExampleServlet</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<description></description>
+		<display-name>HomePageServlet</display-name>
+		<servlet-name>HomePageServlet</servlet-name>
+		<servlet-class>com.controller.HomePageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description></description>
+		<display-name>RegistrationServlet</display-name>
+		<servlet-name>RegistrationServlet</servlet-name>
+		<servlet-class>com.controller.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description></description>
+		<display-name>LogInServlet</display-name>
+		<servlet-name>LogInServlet</servlet-name>
+		<servlet-class>com.controller.LogInServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description></description>
+		<display-name>LogOutServlet</display-name>
+		<servlet-name>LogOutServlet</servlet-name>
+		<servlet-class>com.controller.LogOutServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description></description>
+		<display-name>QuizServlet</display-name>
+		<servlet-name>QuizServlet</servlet-name>
+		<servlet-class>com.controller.QuizServlet</servlet-class>
+	</servlet>
+
+</web-app>
