@@ -9,8 +9,8 @@ public class DatabaseConnection {
 	public String url = "jdbc:mysql://localhost:3306/";
 	public String dbName = "QuizApp?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 	public String driver = "com.mysql.jdbc.Driver";
-	public String userName = "root";
-	public String password = "Luongbong95";
+	public String userName = "";
+	public String password = "";
 
 	public Connection loadDB() {
 		try {
